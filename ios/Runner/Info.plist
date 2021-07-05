@@ -41,5 +41,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+
+	<!-- Put me in the [my_project]/ios/Runner/Info.plist file -->
+    <!-- Google Sign-In section -->
+    <key>CFBundleURLTypes</key>
+    <array>
+    	<dict>
+    		<key>CFBundleTypeRole</key>
+    		<string>Editor</string>
+    		<key>CFBundleURLSchemes</key>
+    		<array>
+    		<string>com.googleusercontent.apps.154365471254-s2sp2qvfgr9mu0vic26mfopau23cmhkk</string>
+            	            <string>ecommercemarketapp-21ea8</string>
+    		</array>
+    	</dict>
+    </array>
+    <!-- End of the Google Sign-In section -->
 </dict>
 </plist>
